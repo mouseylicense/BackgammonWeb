@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+backgammon-frontend/node_modules
+backgammon-frontend/.pnp
+backgammon-frontend/.pnp.js
+
+# testing
+backgammon-frontend/coverage
+
+# production
+backgammon-frontend/build
+
+# misc
+backgammon-frontend/.DS_Store
+backgammon-frontend/.env.local
+backgammon-frontend/.env.development.local
+backgammon-frontend/.env.test.local
+backgammon-frontend/.env.production.local
+
+backgammon-frontend/npm-debug.log*
+backgammon-frontend/yarn-debug.log*
+backgammon-frontend/yarn-error.log*
+
+.idea

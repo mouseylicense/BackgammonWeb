@@ -1,0 +1,13 @@
+
+.checker{
+  width:80%;
+  aspect-ratio: 1;
+  border-radius:50%;
+}
+
+.checker.red{
+  background-color:red;
+}
+.checker.black{
+  background-color:black;
+}

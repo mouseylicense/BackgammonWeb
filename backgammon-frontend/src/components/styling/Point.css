@@ -1,0 +1,26 @@
+.point {
+  width:16.666666666666666666666666%;
+  aspect-ratio: 1 / 3;
+  position: relative;
+  display:flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 3px;
+}
+.background {
+  z-index: -1;
+  position: absolute;
+  height:100%;
+  width:100%;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  background-color: #ffd700; /* Example color for point */
+
+}
+
+.point.reversed {
+  transform: rotate(180deg); /* Reverse for the opposite row */
+}
+
+.red{
+  background-color: red;
+}

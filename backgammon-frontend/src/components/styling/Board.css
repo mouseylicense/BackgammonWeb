@@ -1,0 +1,32 @@
+/* src/components/Board.css */
+.board {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem
+}
+
+
+.top ,.bottom {
+  width: 100%;
+  display: flex;
+}
+.half{
+  display:inherit;
+  flex-direction:inherit;
+  flex-grow:1;
+}
+
+.top .point {
+  /* Points on the top side */
+  transform: rotate(180deg);
+}
+
+.center-bar {
+  width: 5%;
+  height: inherit;
+  background-color: #a52a2a; /* Example color for center bar */
+}
